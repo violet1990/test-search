@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Image Search</title>
+    <link rel="stylesheet" href="search_advanced.css">
+    <link rel="stylesheet" href="links.css">
+</head>
+<body>
+    <div class="container"> 
+    <!-- Google logo -->
+    <div class="logo">
+        <img src="logo.JPG" width="110" alt="Advanced Search">
+    </div>
+    <!-- Text above the search fields -->
+    <div class="form">
+        <div> 
+            <p id="title"> Advanced Search</p>
+            <p id="toptext"> Find pages with... </p>
+          
+            <!-- Search fields -->
+            <form action="https://google.com/search">
+                all these words:
+                <input id="input_all" type="text" name="as_q"> <br>
+           
+                this exact word or phrase:
+                <input id="input_exact"   type="text" name="as_epq"> <br>
+           
+                any of these words:
+                <input id="input_any"  type="text" name="as_oq"> <br>
+            
+                none of these words:
+                <input id="input_none"  type="text" name="as_eq"> <br>
+                
+                <div id="button">   
+                    <input type="submit" value="Advanced Search">
+                </div>
+            </form>
+        </div>
+    <!-- Link at the upper-right corner -->
+    <div id="links">
+        <a href="index.html">Google Search</a>
+    </div>
+    </div>
+ </body>
+</html>

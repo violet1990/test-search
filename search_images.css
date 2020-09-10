@@ -1,0 +1,29 @@
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 80px;
+    padding-left: 435px;
+}
+
+#input {
+    outline: none;
+    border-color: rgba(0, 0, 0, .15);
+    border-radius: 26px;
+    font-size: 16px;
+    padding: 12px;
+    margin-top: 5px;
+    margin-left: 370px;
+    width: 40%;
+}
+
+input[type=submit] {
+    border: none;
+    border-radius: 4px; 
+    height: 36px;   
+    cursor: pointer;               
+}
+
+.button {
+    padding-top: 20px;
+    padding-left:565px;
+}
