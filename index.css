@@ -1,0 +1,38 @@
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 130px;
+    padding-left: 475px;
+}
+
+#input{
+    outline: none;
+    border-color: rgba(0, 0, 0, .15);
+    border-radius: 26px;
+    font-size: 16px;
+    padding: 12px;
+    margin-top: 25px;
+    margin-left: 330px;
+    width: 45%;
+    outline: none;
+}
+
+#button_search {
+    border: none;
+    border-radius: 4px; 
+    height: 36px;   
+    width: 120px;
+    margin-top: 25px;
+    margin-left: 485px;
+    cursor: pointer;
+}
+
+#button_lucky {
+    border: none;
+    border-radius: 4px; 
+    height: 36px;   
+    width: 135px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+     
